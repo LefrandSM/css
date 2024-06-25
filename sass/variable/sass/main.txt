@@ -1,0 +1,41 @@
+// CSS Vanilla Variables
+// :root {
+//     --primary-color: lightblue;
+//     --secondary-color: rgb(118, 167, 184);
+//     --text-color: #333;
+// }
+
+// body {
+//     background-color: var(--primary-color);
+// }
+
+// h1 {
+//     color: var(--text-color);
+// }
+
+
+// SASS Variables
+// 1. - _ dianggap sama
+// 2. Scope variable seperti bahasa pemrograman yang lain, artinya variable scope bisa di akses semua komponen tapi variable di dalam komponen tidak akan bisa di akses komponen lain kecuali komponen nesting
+// 3. tapi variable scope bisa di paksa menjadi global dengan menambahkan !global di akhir value variable.
+// 4. Variable dengan nama yang sama dengan scope yang berbeda merupakan variable berbeda
+// $primary-color: lightblue;
+// $secondary-color: rgb(118, 167, 184);
+// $text-color: #333;
+
+// body {
+//     background-color: $primary-color;
+// }
+// 5. Map (Seperti Array)
+// $alert-danger: red;
+// $alert-success: green;
+// $alert-warning: orange;
+// $alert: (
+//     'danger': red,
+//     'success': green,
+//     'warning': orange,
+// );
+
+// h1 {
+//     color: map-get($alert, 'success');
+// }

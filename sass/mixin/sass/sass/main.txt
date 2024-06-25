@@ -1,0 +1,61 @@
+// .header ul, .footer ul {
+//     margin: 0;
+//     padding: 0;
+//     list-style: none;
+// }
+// .header ul li, .footer ul li {
+//     display: inline-block;
+// }
+
+// Mixin
+
+@mixin inline-list {
+    margin: 0;
+    list-style: none;
+    li {
+        display: inline-block;
+    }
+}
+
+.header ul {
+    @include inline-list();
+    li {
+        background-color: salmon;
+        padding: 0.7em;
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+.footer ul {
+    @include inline-list();
+    li {
+        background-color: black;
+        padding: 0.7em;
+        a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+}
+
+// Arguments pada mixin
+@mixin flex-box($justify: center, $align: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+.container {
+    @include flex-box($justify: space-evenly);
+    width: 600px;
+    height: 400px;
+    background-color: salmon;
+    .box {
+        background-color: greenyellow;
+        color: white;
+        display: inline-block;
+        padding: 1em;
+    }
+}

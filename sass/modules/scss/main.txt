@@ -1,0 +1,25 @@
+@import 'modules/mixin';
+@import 'modules/header';
+@import 'modules/container';
+@import 'modules/footer';
+
+// The Sass team discourages the continued use of the @import rule. Sass will gradually phase it out over the next few years, and eventually remove it from the language entirely. Prefer the @use rule instead. (Note that only Dart Sass currently supports @use. Users of other implementations must use the @import rule instead.)
+
+// What’s Wrong With @import?
+
+// The @import rule has a number of serious issues:
+
+// @import makes all variables, mixins, and functions globally accessible. This makes it very difficult for people (or tools) to tell where anything is defined.
+
+// Because everything’s global, libraries must add a prefix to all their members to avoid naming collisions.
+
+// @extend rules are also global, which makes it difficult to predict which style rules will be extended.
+
+// Each stylesheet is executed and its CSS emitted every time it’s @imported, which increases compilation time and produces bloated output.
+
+// There was no way to define private members or placeholder selectors that were inaccessible to downstream stylesheets.
+
+
+// to @use you must to write it in the file that requires it
+// and to call @include you must to write 'name file'.mixin-name
+// and @use and use functions on sass installed on the laptop, not via vscode

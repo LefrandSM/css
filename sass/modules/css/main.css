@@ -1,0 +1,46 @@
+.header ul {
+  margin: 0;
+  list-style: none;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li {
+  background-color: salmon;
+  padding: 0.7em;
+}
+.header ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 600px;
+  height: 400px;
+  background-color: salmon;
+}
+.container .box {
+  background-color: greenyellow;
+  color: white;
+  display: inline-block;
+  padding: 1em;
+}
+
+.footer ul {
+  margin: 0;
+  list-style: none;
+}
+.footer ul li {
+  display: inline-block;
+}
+.footer ul li {
+  background-color: black;
+  padding: 0.7em;
+}
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+}

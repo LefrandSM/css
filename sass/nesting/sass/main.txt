@@ -1,0 +1,39 @@
+// body {
+//     background-color: salmon;
+//     .main-heading {
+//         font-size: 2em;
+//     }
+//     .main-paragraph {
+//         font-size: 1.4em;
+//     }
+// }
+
+// .main, footer  {
+//     h1, p {
+//         letter-spacing: 1px;
+//     }
+// }
+
+// &
+// Parent Selector
+// .main {
+//     .container & {
+//         background-color: salmon;
+//     }
+//     .main-heading {
+//         font-size: 2em;
+//     }
+
+//     &:hover {
+//         background-color: lightblue;
+//     }
+// }
+
+// .footer {
+//     & &-heading {   // for Nesting in Css
+//         font-size: 2em;
+//     }
+//     &-paragraph {   // with one & Nesting is gone
+//         font-size: 2em;
+//     }
+// }
