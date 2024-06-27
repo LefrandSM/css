@@ -1,2 +1,2 @@
 # css
-i learn css
+i learn Sass

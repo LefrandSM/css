@@ -1,9 +1,0 @@
-A Utility-first CSS Framework that packed with classes.
-
-what is Utility-first?
-A class that has one function
-
-
-what is difference with Bootstrap?
-Bootstrap is UI Framework examples Material UI, Foundation, Semantic, etc.
-Tailwind is Utility-first Framework examples Tachyons, Shed.css, Basscss, etc.
