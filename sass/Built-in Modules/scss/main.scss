@@ -1,0 +1,22 @@
+// Base
+$base-color: salmon;
+
+// h1 {
+//     color: $base-color;
+//     font-family: Arial, Helvetica, sans-serif;
+//     font-size: 3em;
+//     text-align: center;
+// }
+
+// Built-in Modules: Color
+// adjust-color($color, $red: null, $green: null, $blue: null, $hue: null, $saturation: null, $lightness: null, $whiteness: null, $blackness: null, $alpha: null);
+// adjust-hue($color, $degree: deg)
+// complement($color)
+// darken($color, $amount: %)
+// lighten($color, $amount: %)
+// saturate($color, $amount: %)
+// desaturate($color, $amount: %)
+// grayscale($color) it make desaturate of the $color be 100%
+// mix($color1, $color2, $weight: 50% default, can change)
+// fade-in($color, $amount: 0 / 1)
+// fade-out($color, $amount: 0 / 1)

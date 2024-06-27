@@ -1,0 +1,17 @@
+// For
+@for $i from 1 to 11 {
+    ;
+}
+
+// While
+$i: 1;
+@while $i < 11 {
+    $i: $i + 1;
+}
+
+// Each
+@each $variable in $variable-parents {
+    .#{$variable} { //Interpolasi in scss
+        style.
+    }
+}
